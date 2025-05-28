@@ -5,3 +5,6 @@
 
 !pip install tensorboard
 !pip install torch torchvision torchaudio
+
+!pip install torchsummary
+
