@@ -4,6 +4,9 @@ tfidf_vect.pkl
 lr_v1.pkl
 intro_ml_with_python_2nd_revised-main/data.tar.gz
 intro_ml_with_python_2nd_revised-main/data/aclImdb_v1.tar.gz
+*.tgz
+*.gz
+*.pkl
 
 # 🗂️ 데이터셋 디렉토리 제외
 book/
