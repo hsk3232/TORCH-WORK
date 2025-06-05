@@ -23,8 +23,6 @@
 - cmd 창에서 실행시 실행이 안된다면, Anaconda Prompt에서 실행
 
 ```bash
-# Conda 최신화 (선택)
-conda update -n base -c defaults conda
 
 # 가상환경 생성
 conda create -n torch-gpu python=3.9
