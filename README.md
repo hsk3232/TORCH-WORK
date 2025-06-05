@@ -14,8 +14,8 @@
 - Python 3.9 버전 권장: `Miniconda3-py39_23.3.1-0-Windows-x86_64.exe`
 
 설치 시:
-- "Add to PATH" 체크 ❌ (비권장)
-- "Register Miniconda as default Python" 체크 ⭕ (권장)
+- "Add to PATH" 체크
+
 
 ---
 
@@ -63,9 +63,12 @@ pip install torchsummary
 ```python
 import nltk
 nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
+nltk.download('punkt_tab')
+nltk.download("popular")
+nltk.download('stopwords')      # 불용어 리스트
+nltk.download('averaged_perceptron_tagger')  # 품사 태깅
+nltk.download('wordnet')        # 표제어 추출용 WordNet 사전
+nltk.download('omw-1.4')        # 위 WordNet의 다국어 지원
 ```
 
 ---
