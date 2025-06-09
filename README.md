@@ -54,6 +54,8 @@ pip install nltk matplotlib pandas seaborn scikit-learn jupyter
 pip install tensorboard
 pip install torch torchvision torchaudio
 pip install torchsummary
+
+pip install ultralytics
 ```
 
 ---

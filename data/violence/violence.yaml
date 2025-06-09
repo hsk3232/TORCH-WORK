@@ -1,0 +1,8 @@
+# new-violence.yaml
+path: ./data/violence  # 데이터셋 루트 경로 # 실행 파일 기준으로 yaml 파일 위치 설정
+train: train/images     # 훈련 이미지 경로
+val: valid/images         # 검증 이미지 경로
+test: test/images       # 테스트 이미지 경로 (선택사항)
+
+names:
+  0: violence
